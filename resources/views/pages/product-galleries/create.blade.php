@@ -43,7 +43,6 @@
                             name="is_default"
                             id="ya"
                             value="1"
-                            class="form-control @error('is_default')is-invalid @enderror"
                             value="{{ old('is_default') }}" /> Ya
                 </label>
                 &nbsp;
@@ -52,7 +51,7 @@
                             name="is_default"
                             id="tidak"
                             value="0"
-                            class="form-control @error('is_default')is-invalid @enderror"
+                            checked
                             value="{{ old('is_default') }}" /> Tidak
                 </label>
                     @error('is_default')
